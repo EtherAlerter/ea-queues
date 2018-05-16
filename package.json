@@ -1,0 +1,10 @@
+{
+  "name": "ea-queues",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "docker build -t ea-queues .",
+    "start": "docker run -p 5672:5672 ea-queues"
+  }
+}
